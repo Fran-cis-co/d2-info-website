@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import About from './container/AboutGame/About';
 
 const App = () => (
-  <div>
+  <div style={{backgroundColor: 'black'}}>
     <Navbar/>
+    <About />
     {/* 
       -- LAYOUT STYLE --
       navbar
@@ -21,3 +23,12 @@ const App = () => (
 
 
 export default App;
+
+
+/* 
+
+     Sources used so far:
+     https://en.wikipedia.org/wiki/Destiny_2
+     about game picture: https://www.pinterest.com/pin/509540145339629822/
+
+*/

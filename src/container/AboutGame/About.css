@@ -1,0 +1,23 @@
+.about_container {
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    height: 150%;
+    
+    background: url('C:\Coding_Workspace\Projects\destiny2-info-website\src\assets\guardian-looking-at-traveler.jpeg') no-repeat;
+    background-size: cover;
+    
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.about_story,
+.about_gameinfo {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.about_container li {
+    list-style: none;
+}
