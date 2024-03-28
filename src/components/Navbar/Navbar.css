@@ -1,0 +1,111 @@
+/* Set style of total navbar */
+.app_navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+}
+
+/* Add color to title */
+.app_navbar_title {
+    margin: 0 1rem;
+    color: white;
+
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Add margin, font--family, and center hyerplinks */
+.app_navbar_links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app_navbar_links li {
+    margin: 0 2rem;
+    cursor: pointer;
+    color: white;
+    list-style-type: none;
+}
+
+.app_navbar_links a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Input small text and decorate hyperlink*/
+.app_navbar_createdby {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 1rem;
+
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app_navbar_createdby_link {
+    text-decoration: none;
+    margin: 0.2rem;
+    text-decoration: underline;
+    color: white;
+}
+
+.app_navbar_links a:hover,
+.app_navbar_createdby a:hover,
+.app_navbar_classes:hover {
+    color: rgb(21, 66, 148);
+}
+
+.app_navbar_links_dropdown {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(25, 4, 59);
+    transition: 0.5s ease;
+  
+    flex-direction: column;
+    z-index: 5;
+}
+
+.app_navbar_links_dropdown .app_navbar_links_dropdown_close {
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.658);
+    margin: 2rem;
+    cursor: pointer;
+
+    text-align: center;
+    top: 20px;
+    right: 20px;
+}
+
+.app_navbar_links_dropdown_close {
+    justify-content: center;
+}
+
+.app_navbar_links_dropdown_links {
+    list-style: none;
+}
+
+.app_navbar_links_dropdown_links li {
+    margin: 2rem;
+    cursor: pointer;
+    color: gold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
