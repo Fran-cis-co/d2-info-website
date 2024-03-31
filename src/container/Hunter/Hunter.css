@@ -1,0 +1,12 @@
+.app_hunter {
+    color: white;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.app_hunter .app_hunter_subclasses ul > li > a {
+    background-color: grey;
+    color: white;
+}
+
+
+
