@@ -1,0 +1,11 @@
+.app_warlock {
+    color: white;
+    margin: 4rem 1rem 1rem 1rem;
+}
+
+
+
+.app_warlock .app_warlock_subclasses ul > li > a {
+    background-color: grey;
+    color: white;
+}

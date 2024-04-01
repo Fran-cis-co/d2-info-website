@@ -3,12 +3,16 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import About from './container/AboutGame/About';
 import Hunter from './container/Hunter/Hunter';
+import Titan from './container/Titan/Titan';
+import Warlock from './container/Warlock/Warlock';
 
 const App = () => (
   <div style={{backgroundColor: 'black'}}>
     <Navbar/>
     <About />
     <Hunter />
+    <Titan />
+    <Warlock />
     {/* 
       -- LAYOUT STYLE --
       navbar

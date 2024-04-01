@@ -1,0 +1,12 @@
+.app_titan {
+    color: white;
+    margin: 4rem 1rem 1rem 1rem;
+    text-align: right;
+}
+
+
+
+.app_titan .app_titan_subclasses ul > li > a {
+    background-color: grey;
+    color: white;
+}

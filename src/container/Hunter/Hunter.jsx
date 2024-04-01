@@ -20,12 +20,15 @@ const Hunter = () => {
                 className='app_hunter_subclasses'
             >
                 {/* Use seperate classes for each tab to ensure clean code */}
-                <Tab eventKey="solar" title="Solar">
+                <Tab eventKey="gunslinger" title="Gunslinger">
                     <Solar />
                 </Tab>
 
+                <Tab eventKey="arcstrider" title="Arcstrider">
+                    arc
+                </Tab>
 
-                <Tab eventKey="arc" title="Arc">
+                <Tab eventKey="nightstalker" title="Nightstalker">
                     arc
                 </Tab>
             </Tabs>
