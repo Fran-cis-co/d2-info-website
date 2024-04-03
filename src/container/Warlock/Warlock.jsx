@@ -5,7 +5,7 @@ import { Tab, Tabs } from 'react-bootstrap';
 
 const Warlock = () => {
   return (
-    <div className='app_warlock'>
+    <div className='app_warlock' id='warlock'>
       <h1 className='app_warlock_title'>Warlock</h1>
         {/* Info about the warlock */}
         <p className='app_warlock_about'>

@@ -5,6 +5,7 @@ import About from './container/AboutGame/About';
 import Hunter from './container/Hunter/Hunter';
 import Titan from './container/Titan/Titan';
 import Warlock from './container/Warlock/Warlock';
+import Storepage from './container/Storepage/Storepage';
 
 const App = () => (
   <div style={{backgroundColor: 'black'}}>
@@ -13,6 +14,7 @@ const App = () => (
     <Hunter />
     <Titan />
     <Warlock />
+    <Storepage />
     {/* 
       -- LAYOUT STYLE --
       navbar

@@ -1,0 +1,17 @@
+.app_storepage {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.app_storepage_title {
+    margin: 4rem 1rem 1rem 1rem;
+    color:white;
+    
+    font-size: 50px;
+}
+
+.app_storepage_href {
+    text-decoration: none;
+    color: inherit;
+}

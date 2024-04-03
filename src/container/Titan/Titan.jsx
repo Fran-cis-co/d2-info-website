@@ -5,7 +5,7 @@ import { Tab, Tabs } from 'react-bootstrap';
 
 const Titan = () => {
   return (
-    <div className='app_titan'>
+    <div className='app_titan' id="titan">
       <h1 className='app_titan_title'>Titan</h1>
         {/* Info about the titan */}
         <p className='app_hunter_about'>

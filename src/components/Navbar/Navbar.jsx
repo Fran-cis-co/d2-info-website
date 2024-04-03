@@ -22,10 +22,10 @@ const Navbar = () => {
               toggleMenu &&
               (
                 <div className='app_navbar_links_dropdown'>
-                  <ul className='app_navbar_links_dropdown_links'>
-                    <li><a href='#titan' onClick={() => setToggleMenu(false)}>Titan</a></li>
-                    <li><a href='#hunter' onClick={() => setToggleMenu(false)}>Hunter</a></li>
-                    <li><a href='#warlock' onClick={() => setToggleMenu(false)}>Warlock</a></li>
+                  <ul className='app_navbar_links_dropdown_links' onClick={() => setToggleMenu(false)}>
+                    <li><a href='#titan'>Titan</a></li>
+                    <li><a href='#hunter'>Hunter</a></li>
+                    <li><a href='#warlock'>Warlock</a></li>
                   </ul>
                 </div>
               )
