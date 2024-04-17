@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/d2-info-website/static/css/main.bf42f317.css",
+    "main.js": "/d2-info-website/static/js/main.727b7b61.js",
+    "static/media/guardian-looking-at-traveler.jpeg": "/d2-info-website/static/media/guardian-looking-at-traveler.77d303768a87f9f73722.jpeg",
+    "index.html": "/d2-info-website/index.html",
+    "main.bf42f317.css.map": "/d2-info-website/static/css/main.bf42f317.css.map",
+    "main.727b7b61.js.map": "/d2-info-website/static/js/main.727b7b61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf42f317.css",
+    "static/js/main.727b7b61.js"
+  ]
+}
