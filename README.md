@@ -1,5 +1,7 @@
 # Destiny 2 Info Website
 
+DISCONTINUED FOR THE TIME BEING
+
 React application to display info about the video game Destiny 2 developed and published by Bungie.
 The main goal of this website is to display what the game is about and to show info about the 3 in-game playable classes.
 
